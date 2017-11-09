@@ -1,131 +1,109 @@
-name: wheelai
+name: fastai
 channels:
-- menpo
+- soumith
 - defaults
 dependencies:
-- bcolz=1.0.0=py35_0
-- cairo=1.14.8=0
-- fontconfig=2.12.1=3
-- freetype=2.5.5=2
-- glib=2.50.2=1
-- h5py=2.7.0=np111py35_0
-- harfbuzz=0.9.39=2
-- hdf5=1.8.17=1
-- jbig=2.1=0
-- jpeg=9b=0
-- libffi=3.2.1=1
-- libiconv=1.14=0
-- libpng=1.6.27=0
-- libtiff=4.0.6=3
-- libxml2=2.9.4=0
-- mkl=2017.0.1=0
-- numpy=1.11.3=py35_0
-- openssl=1.0.2j=0
-- pcre=8.39=1
-- pip=8.1.2=py35_0
-- pixman=0.34.0=0
-- psutil=4.4.1=py35_0
-- python=3.5.2=0
-- readline=6.2=2
-- setuptools=27.2.0=py35_0
-- six=1.10.0=py35_0
-- sqlite=3.13.0=0
-- tk=8.5.18=0
-- wheel=0.29.0=py35_0
-- xz=5.2.2=0
-- zlib=1.2.8=3
-- opencv3=3.2.0=np111py35_0
+- bleach
+- certifi
+- cffi
+- cycler
+- decorator
+- entrypoints
+- expat
+- fontconfig
+- freetype
+- glib
+- html5lib
+- icu
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jbig
+- jedi
+- jinja2
+- jpeg
+- jsonschema
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- libffi
+- libgcc
+- libgfortran
+- libiconv
+- libpng
+- libsodium
+- libtiff
+- libxml2
+- markupsafe
+- matplotlib
+- mistune
+- mkl
+- nbconvert
+- nbformat
+- notebook
+- numpy
+- olefile
+- openssl
+- pandas
+- pandocfilters
+- path.py
+- patsy
+- pcre
+- pexpect
+- pickleshare
+- pillow
+- pip
+- prompt_toolkit
+- ptyprocess
+- pycparser
+- pygments
+- pyparsing
+- pyqt
+- python>=3.6.0
+- python-dateutil
+- pytz
+- pyzmq
+- qt
+- qtconsole
+- readline
+- scipy
+- seaborn
+- setuptools
+- simplegeneric
+- sip
+- six
+- sqlite
+- statsmodels
+- terminado
+- testpath
+- tk
+- tornado
+- tqdm
+- traitlets
+- wcwidth
+- wheel
+- widgetsnbextension
+- xz
+- zeromq
+- zlib
+- pytorch>=0.2.0
+- torchvision>=0.1.9
+- bcolz
+- prompt_toolkit
 - pip:
-  - appdirs==1.4.0
-  - appnope==0.1.0
-  - atari-py==0.0.18
-  - attrs==16.3.0
-  - autobahn==0.17.2
-  - automat==0.5.0
-  - blessings==1.6
-  - box2d-py==2.3.1
-  - click==6.7
-  - constantly==15.1.0
-  - curtsies==0.2.11
-  - cycler==0.10.0
-  - decorator==4.0.10
-  - docker-py==1.10.3
-  - docker-pycreds==0.2.1
-  - entrypoints==0.2.2
-  - enum-compat==0.0.2
-  - eventlet==0.20.1
-  - fastzbarlight==0.0.14
-  - flask==0.12
-  - go-vncdriver (/home/shreyas/go-vncdriver)==0.4.19
-  - greenlet==0.4.12
-  - gym (/home/shreyas/gym)==0.7.4.dev0
-  - imageio==2.1.2
-  - incremental==16.10.1
-  - ipykernel==4.5.0
-  - ipython==5.1.0
-  - ipython-genutils==0.1.0
-  - ipywidgets==5.2.2
-  - itsdangerous==0.24
-  - jinja2==2.8
-  - jsonschema==2.5.1
-  - jupyter==1.0.0
-  - jupyter-client==4.4.0
-  - jupyter-console==5.0.0
-  - jupyter-core==4.2.0
-  - keras==2.0.2
-  - markupsafe==0.23
-  - matplotlib==1.5.3
-  - mistune==0.7.3
-  - mss==2.0.18
-  - mujoco-py==0.5.7
-  - nbconvert==4.2.0
-  - nbformat==4.1.0
-  - notebook==4.2.3
-  - pachi-py==0.0.21
-  - packaging==16.8
-  - pandas==0.19.1
-  - pexpect==4.2.1
-  - pickleshare==0.7.4
-  - pillow==3.4.2
-  - prompt-toolkit==1.0.8
-  - protobuf==3.2.0
-  - ptyprocess==0.5.1
-  - pyautogui==0.9.36
-  - pyglet==1.2.4
-  - pygments==2.1.3
-  - pymsgbox==1.0.6
-  - pyopengl==3.1.0
-  - pyparsing==2.1.10
-  - pyscreeze==0.1.9
-  - python-dateutil==2.5.3
-  - python-engineio==1.3.0
-  - python-socketio==1.7.2
-  - python3-xlib==0.15
-  - pytweening==1.0.3
-  - pytz==2016.7
-  - pyyaml==3.12
-  - pyzmq==16.0.0
-  - qtconsole==4.2.1
-  - requests==2.10.0
-  - scikit-learn==0.18
-  - scipy==0.19.0
-  - seaborn==0.7.1
-  - simplegeneric==0.8.1
-  - sklearn==0.0
-  - tensorflow-gpu==1.0.0
-  - terminado==0.6
-  - theano==0.8.2
-  - tornado==4.4.2
-  - tqdm==4.8.4
-  - traitlets==4.3.1
-  - twisted==17.1.0
-  - txaio==2.6.1
-  - ujson==1.35
-  - universe (/home/shreyas/universe)==0.20.4
-  - wcwidth==0.1.7
-  - websocket-client==0.40.0
-  - werkzeug==0.12.1
-  - widgetsnbextension==1.2.6
-  - zope.interface==4.3.3
-prefix: /home/shreyas/anaconda3/envs/wheelai
+  - opencv-python
+  - isoweek
+  - pandas_summary
+  - torchtext
+  - graphviz
+  - sklearn_pandas
+  - feather-format
+  - jupyter_contrib_nbextensions
+  - plotnine
+  - docrepr
+  - awscli
+  - kaggle-cli
+  - git+https://github.com/SauceCat/PDPbox.git
 
