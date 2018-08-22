@@ -20,7 +20,5 @@ Join our [Slack channel](https://goo.gl/moFQv3) to connect with other like minde
 - [Intro to python](https://www.codecademy.com/learn/python)
 - [Intro to Github](https://www.youtube.com/watch?v=0fKg7e37bQE)
 
-### Contents
-* 
 
 * If you have any questions or suggestions, feel free to reach out to me on Twitter: [@shreyasgite](https://twitter.com/shreyasgite)
